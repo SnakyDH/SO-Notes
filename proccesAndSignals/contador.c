@@ -20,6 +20,7 @@ pthread_t proxy(int numero)
   pthread_mutex_lock(&id_mutex);
   // Inicia región crítica, hemos tomado el mutex
   id = numero;
+  // * Aqui un sleep(3); para que se vea el efecto de la espera, antes de crear el hilo
   val_ret = pthread_create(&id_h, NULL, &salidaContador, arg);
   // Región crítica terminó en salidaContador
   if (val_ret)
