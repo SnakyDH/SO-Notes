@@ -1,0 +1,6 @@
+.idea
+*.exe
+.vscode
+# My Files
+contador
+alarmas
