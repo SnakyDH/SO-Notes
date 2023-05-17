@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 // Define una Macro: Son pedazos de código, mejores para definir constantes para tener un mejor espacio de memoria
-#define P_WRITE 1; 
-#define P_READ 0;
+#define P_WRITE 1
+#define P_READ 0
 // Constantes: Ocupan menos espacio de memoria
 // const int pWrite = 1;
 // const int pRead = 0;
@@ -35,7 +35,7 @@ int main (void){
         break;
     case -1:
         // error
-        printf('Ha ocurrido un error :c al crear el proceso');
+        printf("Ha ocurrido un error :c al crear el proceso");
         exit(1);
         break;
     default: // Mayor a 0
